@@ -1,0 +1,41 @@
+
+#services{
+     flex-direction: column;
+}
+#clients{
+    /* width:66px; */
+    padding: 2px 6px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.services-container h1{
+    /* background-color: rebeccapurple; */
+}
+#navbar{
+    flex-direction: column;
+}
+#navbar ul il a{
+    font-size: 0.8rem;
+    padding: 4px;
+    padding-bottom: 3px 68px;
+}
+#home{
+    height: 370px;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
+#home::before{
+    height: 400px;
+    padding: 30px 30px;
+}
+#home p{
+    font-size: 10px;
+}
+.h-primary{
+    font-size: 2rem;
+}
+.btn{
+    font-size: 9px;
+    padding: 4px 8px;
+}
